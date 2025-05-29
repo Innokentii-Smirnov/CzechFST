@@ -1,0 +1,16 @@
+read lexc Czech.lexc
+define Lexicon;
+define Voiceless [p|t|k|f];
+define Voiced [b|d|g|v];
+define Nasal [m|n];
+define Liquid [r|l];
+define Resonant [Nasal|Liquid];
+define C [Voiceless|Voiced|Resonant];
+define Lengthening a -> á || _ C+ {-j-};
+define Iotation {t-j} -> c;
+define Voicing s -> z || [.#.|"-"] _ "-" [Voiced | Resonant];
+define Insertion s -> {se} || [.#.|"-"] _ "-" s;
+define Shortening á -> a || _ C+ {-b-};
+define Morphonology Lengthening .o. Iotation .o. Voicing .o. Insertion .o. Shortening;
+define RemoveBoundaries "-" -> 0;
+define Czech [Lexicon .o. Morphonology].l .o. RemoveBoundaries;

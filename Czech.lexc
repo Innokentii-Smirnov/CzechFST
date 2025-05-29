@@ -1,0 +1,455 @@
+Multichar_Symbols +1 +2 +3 +Sg +Pl +Nom +Acc +Gen +Dat +Loc +Ins +Voc +Masc +Fem +Neut
+
+LEXICON Root
+Prefix;
+Noun;
+YerVerbOrPrefix;
+VerbOrPrefix;
+Adjective;
+
+LEXICON Prefix
+do-		AnyVerbOrPrefix;
+na-     AnyVerbOrPrefix;
+ne-		AnyVerbOrPrefix;
+o-		VerbOrPrefix;
+ob-		VerbOrPrefix;
+obe-	YerVerb;
+od-		VerbOrPrefix;
+ode-	YerVerb;
+pa-		AnyVerbOrPrefix;
+po-		AnyVerbOrPrefix;
+pod-	VerbOrPrefix;
+pode-	YerVerbOrPrefix;
+pro-	AnyVerbOrPrefix;
+pře-	AnyVerbOrPrefix;
+při-	AnyVerbOrPrefix;
+před-	VerbOrPrefix;
+přede-	YerVerb;
+roz-	VerbOrPrefix;
+roze-	YerVerb;
+s-		VerbOrPrefix;
+se-		YerVerb;
+u-		AnyVerbOrPrefix;
+v-		Verb;
+vy-		AnyVerbOrPrefix;
+vz-		VerbOrPrefix;
+za-		AnyVerbOrPrefix;
+
+LEXICON YerVerb
+síl		at;
+sl		at;
+stl		at;
+t		nout;
+
+LEXICON Verb
+běl		at;
+blýsk	at;
+cvál	at; ! canter
+červen	at;
+děl		at;
+dum		at;
+drás	at;
+dým		at;
+fouk	at;
+ham		at;
+hatl	at;
+hn		at;
+jás		at;
+jedn	at;
+jím		at;
+hlás	at;
+kašl	at;
+klam	at;
+kotl	at;
+kous	at;
+kys		at;
+lys		at;
+lám		at;
+lousk	at;
+lul		at;
+lusk	at;
+matl	at;
+míl		at;
+mrsk	at;
+pás		at;
+patl	at;
+písk	at;
+plesk	at;
+plísk	at;
+prásk	at;
+prsk	at;
+prýsk	at;
+rous	at;
+sál		at;
+ston	at;
+stýl	at;
+tisk	at;
+tlesk	at;
+toul	at; ! wander
+třesk	at;
+trysk	at;
+tutl	at;
+vol		at; ! call
+zelen	at;
+žehn	at;
+žmoul	at; ! munch, chew; crumple
+žvatl	at;
+bíl		it;
+cíl		it;
+cít		it; ! feel
+honos	it;
+chod	it;
+jezd	it;
+koup	it;
+kus		it;
+krm		it;
+lom		it;
+mluv	it;
+pál		it;
+píl		it;
+plat	it;
+pros	it;
+pust	it;
+nut		it;
+síl		it;
+soud	it;
+suš		it;
+top		it;
+tvoř	it;
+vař		it; ! cook, boil
+věs		it;
+věz		it;
+běž		et;
+drž		et;
+lež		et;
+mus		et; ! must, have to
+slyš	et;
+vrac	et;
+sed		ět;
+trp		ět;
+vid		ět;
+děk		ovat; ! thank
+had		ovat; ! estimate
+kaz		ovat; ! show
+kup		ovat; ! buy
+krač	ovat;
+mil		ovat; ! love
+oper	ovat;
+organiz	ovat;
+prac	ovat; ! work
+saz		ovat;
+sil		ovat;
+sled	ovat;
+třeb	ovat; ! need
+žad		ovat;
+bás		nout;
+blik	nout;
+čís		nout;
+fik		nout;
+hryz	nout;
+klouz	nout;
+kous	nout;
+křís	nout;
+kys		nout;
+líz		nout;
+máz		nout;
+me		nout; ! remember
+mek		nout;
+mrz		nout;
+nik		nout;
+pás		nout;
+pláz	nout;
+řek		nout;
+říz		nout;
+sek		nout;
+šmik	nout;
+tek		nout;
+tisk	nout; ! press
+trs		nout;
+táh		nout; ! pull
+pad		nout; ! fall
+vlád	nout; ! rule
+vrz		nout;
+nes		t;
+ved		t;
+
+LEXICON V
+-b		a;
+-iv		o;
+
+LEXICON VerbOrPrefix
+Verb;
+Prefix;
+
+LEXICON AnyVerbOrPrefix
+AnyVerb;
+Prefix;
+
+LEXICON AnyVerb
+YerVerb;
+Verb;
+
+LEXICON Noun
+brod    u;
+čas		u;
+fax		u;
+jih		u; ! south
+les		u;
+pod-zim	u; ! autumn
+řád		u;
+sever	u; ! north
+střed	u; ! centre, middle
+svět	u;
+syr		u;
+vlas	u;
+vý-chod	u; ! east
+zá-pad	u; ! west
+cen		a;
+hlav	a;
+pus     a;
+řad		a;
+řek		a;
+sír		a; ! sulphur
+škol	a;
+špin	a; ! dirt
+vod		a;
+růž		e; ! rose
+zim		a; ! winter
+blát	o;
+dlát	o;
+jar		o; ! spring
+kopyt	o;
+koryt	o;
+lét		o; ! summer
+měst	o;
+míst	o;
+cíl		i;
+
+
+LEXICON N
+-av		y;
+-ov		y;
+-n		í;
+-n		y;
+
+LEXICON Adjective
+cel		y;
+čist	y;
+hezk	y;
+dobr	y; ! good
+jedin	y;
+krásn	y; ! beautiful
+mal		y;
+mlad	y;
+mnoh	y;
+nov		y;
+oškliv	y; ! ugly
+pěkn	y;
+pevn	y;
+rad		y;
+rovn	y;
+rychl	y;
+slab	y;
+star	y;
+špatn	y; ! bad
+tuh		y;
+velk	y; ! big
+vesel	y;
+zdatn	y;
+zl		y; ! evil, nasty
+žád		y;
+! Названия цветов
+bíl		y;
+čern	y;
+červen	y;
+fialov	y; ! purple
+hněd	y; ! brown
+modr	y; ! blue
+oranžov	y;
+šed		y; ! grey
+šediv	y; ! grey
+zelen	y; ! green
+žlut	y; ! yellow
+ciz		í; ! foreign
+
+LEXICON A
+-ost	i;
+
+! Классы глаголов
+
+LEXICON at
+-a		InfStem;
+-á		NewPresent;
+V;
+
+LEXICON it
+-i		InfStem;
+-í		NewPresent;
+-j		et;
+V;
+
+LEXICON et
+-e		InfStem;
+-í		NewPresent;
+V;
+
+LEXICON ět
+-ě		InfStem;
+-í		NewPresent;
+V;
+
+LEXICON ovat
+-ova	InfStem;
+-uj		OldPresent;
+-uje	CommonPresent;
+V;
+
+LEXICON nout
+-nou	Inf;
+-nu		Past;
+-n		OldPresent;
+-ne		CommonPresent;
+V;
+
+LEXICON t
+		InfStem;
+		OldPresent;
+0:-e	CommonPresent;
+V;
+
+! Спряжение глаголов
+
+LEXICON InfStem
+Inf;
+Past;
+
+LEXICON Inf
+-t		#;
+
+LEXICON Past
+-l		PastEndings;
+
+LEXICON PastEndings
+		#;
+-a		#;
+-o		#;
+-i		#;
+-y		#;
+-a		#;
+
+LEXICON NewPresent
++1+Sg:-m	#;
+			CommonPresent;
+
+LEXICON OldPresent
++1+Sg:-u	#;
++3+Pl:-ou	#;
+
+LEXICON CommonPresent
++2+Sg:-š	#;
++3+Sg:0		#;
++1+Pl:-me	#;
++2+Pl:-te	#;
+
+! Склонение прилагательных
+
+LEXICON y
++Masc+Nom+Sg:-ý		#;
++Fem+Nom+Sg:-á		#;
++Neut+Nom+Sg:-é		#;
+A;
+
+LEXICON í
++Nom+Sg:-í			#;
+A;
+
+! Склонение существительных
+
+LEXICON a
++Nom+Sg:-a		#;
++Acc+Sg:-u		#;
++Gen+Sg:-y		#;
++Dat+Sg:-ě		#;
++Loc+Sg:-ě		#;
++Ins+Sg:-ou		#;
++Voc+Sg:-o		#;
++Nom+Pl:-y      #;
++Acc+Pl:-y		#;
++Gen+Pl:0		#;
++Dat+Pl:-ám     #;
++Loc+Pl:-ách    #;
++Ins+Pl:-ami    #;
+CommonNoun;
+N;
+
+LEXICON ovi
+CommonMasc;
++Acc+Sg:-a		#;
++Gen+Sg:-a		#;
++Dat+Sg:-ovi	#;
++Loc+Sg:-ovi	#;
+CommonMascNeut;
++Nom+Pl:-i		#;
++Nom+Pl:-ové	#;
+N;
+
+LEXICON u
+CommonMasc;
++Acc+Sg:0		#;
++Gen+Sg:-u		#;
+CommonInanMascNeut;
+CommonMascNeut;
++Nom+Pl:-y      #;
++Acc+Pl:-y		#;
+N;
+
+LEXICON o
++Nom+Sg:-o      #;
++Acc+Sg:-o		#;
++Gen+Sg:-a      #;
+CommonInanMascNeut;
+CommonMascNeut;
++Nom+Pl:-a		#;
++Acc+Pl:-a		#;
++Gen+Pl:0		#;
+CommonNoun;
+N;
+
+LEXICON CommonMasc
++Nom+Sg:0		#;
++Voc+Sg:-e		#;
++Gen+Pl:-ů		#;
+
+LEXICON CommonInanMascNeut
++Dat+Sg:-u      #;
++Loc+Sg:-ě      #;
++Loc+Sg:-u      #;
+
+LEXICON CommonMascNeut
++Ins+Sg:-em		#;
++Dat+Pl:-ům		#;
++Loc+Pl:-ech	#;
++Ins+Pl:-y		#;
+
+LEXICON CommonNoun
++Ins+Pl:-ama	#;
+
+LEXICON e
+N;
+
+LEXICON i
++Nom+Sg:0		#;
++Acc+Sg:0		#;
++Gen+Sg:-ě		#;
++Dat+Sg:-i		#;
++Loc+Sg:-i		#;
++Ins+Sg:-í		#;
++Voc+Sg:-i		#;
++Nom+Pl:-ě      #;
++Acc+Pl:-ě		#;
++Gen+Pl:-í		#;
++Dat+Pl:-ím     #;
++Loc+Pl:-ích    #;
++Ins+Pl:-ěmi    #;
++Ins+Pl:-ěma    #;
+N;
