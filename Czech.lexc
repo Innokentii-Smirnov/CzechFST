@@ -1,5 +1,9 @@
 Multichar_Symbols +1 +2 +3 +Sg +Pl +Nom +Acc +Gen +Dat +Loc +Ins +Voc +Masc +Fem +Neut
 
+Definitions
+V = a|e|i|y|o|u|á|é|í|ý|ó|ú|o u;
+C = b|d|f|g|h|k|l|m|n|p|s|t|x|z|c h|r|č|ň|ř|š|ž;
+
 LEXICON Root
 Prefix;
 Noun;
@@ -190,6 +194,7 @@ YerVerb;
 Verb;
 
 LEXICON Noun
+<C+ V C> u;
 brod    u;
 čas		u;
 fax		u;
@@ -204,6 +209,7 @@ syr		u;
 vlas	u;
 vý-chod	u; ! east
 zá-pad	u; ! west
+<C+ V C> a;
 cen		a;
 hlav	a;
 pus     a;
@@ -215,6 +221,7 @@ sír		a; ! sulphur
 vod		a;
 růž		e; ! rose
 zim		a; ! winter
+<C+ V C> o;
 blát	o;
 dlát	o;
 jar		o; ! spring
