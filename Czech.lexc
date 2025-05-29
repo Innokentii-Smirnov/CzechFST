@@ -7,7 +7,6 @@ C = b|d|f|g|h|k|l|m|n|p|s|t|x|z|c h|r|č|ň|ř|š|ž;
 LEXICON Root
 Prefix;
 Noun;
-YerVerbOrPrefix;
 VerbOrPrefix;
 Adjective;
 
